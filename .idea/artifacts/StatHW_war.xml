@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StatHW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>StatHW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="StatHW-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="StatHW:war exploded" />
+    </root>
+  </artifact>
+</component>
